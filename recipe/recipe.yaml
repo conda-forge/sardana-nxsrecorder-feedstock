@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.37.0"
+  version: "3.38.0"
 
 package:
   name: sardana-nxsrecorder
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/sardana-nxs-recorder/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 7e717e7c402e224393f0dbc10d8724e79a82dcad18fdeca3c8cb6ffe8d65fb68
+  sha256: d6bef46d729a20ddbdd3264ed4129ed1037b510c4a68dc25f1cc3bd82ace9941
 
 build:
   noarch: python
